@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-26 16:00:03 by Eclipse SUMO netedit Version 1.23.1
+<neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumocfg-file value="/home/homelessamy/Desktop/sumo/testing/test.sumocfg"/>
+        <route-files value="/home/homelessamy/Desktop/sumo/testing/test.rou.xml"/>
+        <sumo-net-file value="/home/homelessamy/Desktop/sumo/testing/test.net.xml"/>
+    </input>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.avoid-overlap value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="0"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.50"/>
+        <rectangular-lane-cut value="0"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="0"/>
+    </pedestrian>
+
+    <netedit>
+        <new-network value="false"/>
+    </netedit>
+
+</neteditConfiguration>
+-->
+
+<nodes version="1.20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
+    <location netOffset="0.00,0.00" convBoundary="-307.78,-447.26,929.56,343.26" origBoundary="-10000000000.00,-10000000000.00,10000000000.00,10000000000.00" projParameter="!"/>
+
+    <node id="J0" x="-274.38" y="343.26" type="dead_end"/>
+    <node id="J1" x="904.51" y="264.04" type="dead_end"/>
+    <node id="J15" x="-259.56" y="281.67" type="priority"/>
+    <node id="J16" x="-269.83" y="218.65" type="priority"/>
+    <node id="J24" x="-280.65" y="161.43" type="priority"/>
+    <node id="J25" x="-295.87" y="74.54" type="dead_end"/>
+    <node id="J28" x="-307.78" y="3.23" type="dead_end"/>
+    <node id="J3" x="-191.24" y="-316.99" type="priority"/>
+    <node id="J36" x="60.39" y="-344.47" type="priority"/>
+    <node id="J37" x="100.56" y="-54.80" type="dead_end"/>
+    <node id="J38" x="237.69" y="-67.85" type="priority"/>
+    <node id="J39" x="97.94" y="16.73" type="dead_end"/>
+    <node id="J40" x="21.05" y="26.01" type="dead_end"/>
+    <node id="J42" x="124.01" y="241.08" type="priority"/>
+    <node id="J43" x="393.34" y="221.27" type="priority"/>
+    <node id="J45" x="224.90" y="-218.30" type="priority"/>
+    <node id="J46" x="511.09" y="-239.04" type="priority"/>
+    <node id="J47" x="519.46" y="-144.16" type="dead_end"/>
+    <node id="J48" x="367.23" y="-132.98" type="dead_end"/>
+    <node id="J5" x="676.38" y="-113.17" type="priority"/>
+    <node id="J52" x="832.56" y="63.16" type="priority"/>
+    <node id="J53" x="775.67" y="-447.26" type="priority"/>
+    <node id="J55" x="929.56" y="-9.87" type="dead_end"/>
+    <node id="J57" x="924.11" y="-104.69" type="dead_end"/>
+    <node id="J59" x="917.58" y="-202.78" type="dead_end"/>
+    <node id="clusterJ10_J11_J58" x="810.13" y="-194.46" type="priority"/>
+    <node id="clusterJ17_J21_J22" x="-137.72" y="196.25" type="priority"/>
+    <node id="clusterJ20_clusterJ14_J19" x="-130.26" y="263.28" type="priority"/>
+    <node id="clusterJ26_J62_J63" x="-153.83" y="56.65" type="priority"/>
+    <node id="clusterJ27_J64_J65" x="-160.44" y="-18.18" type="priority"/>
+    <node id="clusterJ2_J4_J54" x="829.19" y="-5.07" type="priority"/>
+    <node id="clusterJ2_J6_J7" x="-123.89" y="331.73" type="priority"/>
+    <node id="clusterJ30_J51_J78_J79" x="697.80" y="75.37" type="priority"/>
+    <node id="clusterJ31_J68_J69" x="-127.90" y="241.39" type="priority"/>
+    <node id="clusterJ32_J66_J67" x="16.91" y="140.78" type="priority"/>
+    <node id="clusterJ33_J74_J75" x="471.88" y="97.92" type="priority"/>
+    <node id="clusterJ34_J76_J77" x="705.10" y="194.64" type="priority"/>
+    <node id="clusterJ41_J70_J71" x="117.02" y="130.00" type="priority"/>
+    <node id="clusterJ44_J72_J73" x="384.76" y="105.35" type="priority"/>
+    <node id="clusterJ49_J9" x="354.69" y="-226.12" type="priority"/>
+    <node id="clusterJ4_J8_J9" x="714.19" y="276.00" type="priority"/>
+    <node id="clusterJ56_J6_J7" x="821.20" y="-95.57" type="priority"/>
+    <node id="clusterJ60_J61_clusterJ23_J29" x="-140.96" y="148.96" type="priority"/>
+</nodes>

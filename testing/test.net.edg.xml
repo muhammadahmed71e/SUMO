@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-26 16:00:03 by Eclipse SUMO netedit Version 1.23.1
+<neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumocfg-file value="/home/homelessamy/Desktop/sumo/testing/test.sumocfg"/>
+        <route-files value="/home/homelessamy/Desktop/sumo/testing/test.rou.xml"/>
+        <sumo-net-file value="/home/homelessamy/Desktop/sumo/testing/test.net.xml"/>
+    </input>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.avoid-overlap value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="0"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.50"/>
+        <rectangular-lane-cut value="0"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="0"/>
+    </pedestrian>
+
+    <netedit>
+        <new-network value="false"/>
+    </netedit>
+
+</neteditConfiguration>
+-->
+
+<edges version="1.20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+    <edge id="-E0" from="J1" to="clusterJ4_J8_J9" priority="-1" numLanes="2" speed="13.89" shape="904.51,264.04 719.21,276.50"/>
+    <edge id="-E0.1021" from="clusterJ2_J6_J7" to="J0" priority="-1" numLanes="2" speed="13.89" shape="-115.19,332.57 -274.38,343.26"/>
+    <edge id="-E0.185" from="clusterJ4_J8_J9" to="clusterJ2_J6_J7" priority="-1" numLanes="2" speed="13.89" shape="719.21,276.50 -115.19,332.57"/>
+    <edge id="-E1" from="J3" to="clusterJ27_J64_J65" priority="-1" numLanes="2" speed="13.89" shape="-191.24,-316.99 -158.47,-20.97">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E1.178" from="clusterJ26_J62_J63" to="clusterJ60_J61_clusterJ23_J29" priority="-1" numLanes="2" speed="13.89" shape="-149.91,59.57 -139.98,152.88">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E1.259" from="clusterJ60_J61_clusterJ23_J29" to="clusterJ17_J21_J22" priority="-1" numLanes="2" speed="13.89" shape="-139.98,152.88 -135.37,195.72">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E1.315" from="clusterJ17_J21_J22" to="clusterJ31_J68_J69" priority="-1" numLanes="2" speed="13.89" shape="-135.37,195.72 -130.16,244.73">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E1.364" from="clusterJ31_J68_J69" to="clusterJ20_clusterJ14_J19" priority="-1" numLanes="2" speed="13.89" shape="-130.16,244.73 -127.77,267.12">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E1.387" from="clusterJ20_clusterJ14_J19" to="clusterJ2_J6_J7" priority="-1" numLanes="2" speed="13.89" shape="-127.77,267.12 -121.21,328.70">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E1.97" from="clusterJ27_J64_J65" to="clusterJ26_J62_J63" priority="-1" numLanes="2" speed="13.89" shape="-158.47,-20.97 -149.91,59.57">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E11" from="J28" to="clusterJ27_J64_J65" priority="-1" numLanes="2" speed="13.89" shape="-307.78,3.23 -164.69,-15.46">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E12" from="clusterJ30_J51_J78_J79" to="clusterJ33_J74_J75" priority="-1" numLanes="2" speed="13.89" shape="683.56,75.35 469.65,94.50">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E12.206" from="clusterJ33_J74_J75" to="clusterJ44_J72_J73" priority="-1" numLanes="2" speed="13.89" shape="469.65,94.50 380.73,102.79">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E12.295" from="clusterJ44_J72_J73" to="clusterJ41_J70_J71" priority="-1" numLanes="2" speed="13.89" shape="380.73,102.79 121.10,126.97">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E12.556" from="clusterJ41_J70_J71" to="clusterJ32_J66_J67" priority="-1" numLanes="2" speed="13.89" shape="121.10,126.97 15.09,136.85">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E12.663" from="clusterJ32_J66_J67" to="clusterJ60_J61_clusterJ23_J29" priority="-1" numLanes="2" speed="13.89" shape="15.09,136.85 -138.30,151.14">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E15" from="J36" to="clusterJ41_J70_J71" priority="-1" numLanes="2" speed="13.89">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E16" from="J38" to="J37" priority="-1" numLanes="2" speed="13.89" shape="237.69,-67.85 200.87,-64.35 100.56,-54.80">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E2" from="J5" to="clusterJ30_J51_J78_J79" priority="-1" numLanes="2" speed="13.89" shape="676.38,-113.17 696.53,77.55">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E2.204" from="clusterJ30_J51_J78_J79" to="clusterJ34_J76_J77" priority="-1" numLanes="2" speed="13.89" shape="696.53,77.55 708.41,196.83">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E2.324" from="clusterJ34_J76_J77" to="clusterJ4_J8_J9" priority="-1" numLanes="2" speed="13.89" shape="708.41,196.83 716.12,274.21">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E23" from="J47" to="J46" priority="-1" numLanes="2" speed="13.89">
+        <lane index="0" disallow="pedestrian"/>
+        <lane index="1" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="-E24" from="clusterJ49_J9" to="J48" priority="-1" numLanes="2" speed="13.89" shape="357.18,-224.97 367.23,-132.98">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E25" from="J5" to="J38" priority="-1" numLanes="2" speed="13.89">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E26" from="J52" to="clusterJ30_J51_J78_J79" priority="-1" numLanes="2" speed="13.89" shape="832.56,63.16 714.77,72.97">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E27" from="J53" to="clusterJ10_J11_J58" priority="-1" numLanes="3" speed="13.89" shape="775.67,-447.26 805.96,-197.24">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+        <lane index="2" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E27.177" from="clusterJ56_J6_J7" to="clusterJ2_J4_J54" priority="-1" numLanes="3" speed="13.89" shape="818.04,-97.55 826.70,-1.73">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+        <lane index="2" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E27.251" from="clusterJ10_J11_J58" to="clusterJ56_J6_J7" priority="-1" numLanes="3" speed="13.89" shape="805.96,-197.24 818.04,-97.55">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+        <lane index="2" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E27.274" from="clusterJ2_J4_J54" to="J52" priority="-1" numLanes="3" speed="13.89" shape="826.70,-1.73 832.56,63.16">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+        <lane index="2" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E28" from="J55" to="clusterJ2_J4_J54" priority="-1" numLanes="2" speed="13.89" shape="929.56,-9.87 834.83,-4.58">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E29" from="J57" to="clusterJ56_J6_J7" priority="-1" numLanes="2" speed="13.89" shape="924.11,-104.69 826.89,-98.52">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E31" from="J53" to="J36" priority="-1" numLanes="2" speed="13.89">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E4" from="J36" to="J3" priority="-1" numLanes="2" speed="13.89">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E0" from="J0" to="clusterJ2_J6_J7" priority="-1" numLanes="2" speed="13.89" shape="-274.38,343.26 -135.26,333.92"/>
+    <edge id="E0.139" from="clusterJ2_J6_J7" to="clusterJ4_J8_J9" priority="-1" numLanes="2" speed="13.89" shape="-135.26,333.92 707.25,277.30"/>
+    <edge id="E0.983" from="clusterJ4_J8_J9" to="J1" priority="-1" numLanes="2" speed="13.89" shape="707.25,277.30 904.51,264.04"/>
+    <edge id="E1" from="clusterJ2_J6_J7" to="clusterJ20_clusterJ14_J19" priority="-1" numLanes="2" speed="13.89" shape="-121.21,328.70 -128.48,260.42">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E1.135" from="clusterJ17_J21_J22" to="clusterJ60_J61_clusterJ23_J29" priority="-1" numLanes="2" speed="13.89" shape="-135.61,193.50 -140.79,145.30">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E1.196" from="clusterJ60_J61_clusterJ23_J29" to="clusterJ26_J62_J63" priority="-1" numLanes="2" speed="13.89" shape="-140.79,145.30 -150.29,56.00">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E1.285" from="clusterJ26_J62_J63" to="clusterJ27_J64_J65" priority="-1" numLanes="2" speed="13.89" shape="-150.29,56.00 -158.17,-18.10">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E1.359" from="clusterJ27_J64_J65" to="J3" priority="-1" numLanes="2" speed="13.89" shape="-158.17,-18.10 -191.24,-316.99">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E1.68" from="clusterJ20_clusterJ14_J19" to="clusterJ31_J68_J69" priority="-1" numLanes="2" speed="13.89" shape="-128.48,260.42 -130.55,241.04">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E1.87" from="clusterJ31_J68_J69" to="clusterJ17_J21_J22" priority="-1" numLanes="2" speed="13.89" shape="-130.55,241.04 -135.61,193.50">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E10" from="clusterJ26_J62_J63" to="J25" priority="-1" numLanes="2" speed="13.89" shape="-157.27,53.66 -295.87,74.54">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E11" from="clusterJ27_J64_J65" to="J28" priority="-1" numLanes="2" speed="13.89" shape="-164.69,-15.46 -307.78,3.23">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E12" from="clusterJ60_J61_clusterJ23_J29" to="clusterJ32_J66_J67" priority="-1" numLanes="2" speed="13.89" shape="-138.30,151.14 12.90,137.05 17.56,136.62">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E12.156" from="clusterJ32_J66_J67" to="clusterJ41_J70_J71" priority="-1" numLanes="2" speed="13.89" shape="17.56,136.62 114.01,127.63">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E12.252" from="clusterJ41_J70_J71" to="clusterJ44_J72_J73" priority="-1" numLanes="2" speed="13.89" shape="114.01,127.63 386.10,102.28">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E12.525" from="clusterJ44_J72_J73" to="clusterJ33_J74_J75" priority="-1" numLanes="2" speed="13.89" shape="386.10,102.28 475.96,93.91">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E12.615" from="clusterJ33_J74_J75" to="clusterJ30_J51_J78_J79" priority="-1" numLanes="2" speed="13.89" shape="475.96,93.91 683.56,75.35">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E13" from="clusterJ31_J68_J69" to="clusterJ32_J66_J67" priority="-1" numLanes="2" speed="13.89" shape="-123.01,238.41 18.07,148.88">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E14" from="clusterJ33_J74_J75" to="clusterJ34_J76_J77" priority="-1" numLanes="2" speed="13.89" shape="470.03,105.36 698.84,193.89">
+        <lane index="0" disallow="pedestrian"/>
+        <lane index="1" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="E15" from="clusterJ41_J70_J71" to="J36" priority="-1" numLanes="2" speed="13.89">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E16" from="J37" to="J38" priority="-1" numLanes="2" speed="13.89">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E17" from="J39" to="J40" priority="-1" numLanes="2" speed="13.89"/>
+    <edge id="E18" from="clusterJ41_J70_J71" to="J42" priority="-1" numLanes="2" speed="13.89" shape="115.96,135.40 124.01,241.08">
+        <lane index="0" disallow="pedestrian"/>
+        <lane index="1" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="E19" from="J42" to="J43" priority="-1" numLanes="2" speed="13.89">
+        <lane index="0" disallow="pedestrian"/>
+        <lane index="1" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="E2" from="clusterJ4_J8_J9" to="clusterJ34_J76_J77" priority="-1" numLanes="2" speed="13.89" shape="716.12,274.21 708.05,193.19">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E2.199" from="clusterJ30_J51_J78_J79" to="J5" priority="-1" numLanes="2" speed="13.89" shape="696.33,75.60 676.38,-113.17">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E2.81" from="clusterJ34_J76_J77" to="clusterJ30_J51_J78_J79" priority="-1" numLanes="2" speed="13.89" shape="708.05,193.19 696.33,75.60">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E20" from="J43" to="clusterJ44_J72_J73" priority="-1" numLanes="2" speed="13.89" shape="393.34,221.27 387.46,110.99">
+        <lane index="0" disallow="pedestrian"/>
+        <lane index="1" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="E21" from="J38" to="J45" priority="-1" numLanes="2" speed="13.89">
+        <lane index="0" disallow="pedestrian"/>
+        <lane index="1" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="E22" from="J45" to="clusterJ49_J9" priority="-1" numLanes="2" speed="13.89" shape="224.90,-218.30 352.21,-227.26">
+        <lane index="0" disallow="pedestrian"/>
+        <lane index="1" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="E22.129" from="clusterJ49_J9" to="J46" priority="-1" numLanes="2" speed="13.89" shape="352.21,-227.26 511.09,-239.04">
+        <lane index="0" disallow="pedestrian"/>
+        <lane index="1" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="E23" from="J46" to="J47" priority="-1" numLanes="2" speed="13.89">
+        <lane index="0" disallow="pedestrian"/>
+        <lane index="1" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="E24" from="J48" to="clusterJ49_J9" priority="-1" numLanes="2" speed="13.89" shape="367.23,-132.98 357.18,-224.97">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E25" from="J38" to="J5" priority="-1" numLanes="2" speed="13.89">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E26" from="clusterJ30_J51_J78_J79" to="J52" priority="-1" numLanes="2" speed="13.89" shape="714.77,72.97 832.56,63.16">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E27" from="J52" to="clusterJ2_J4_J54" priority="-1" numLanes="2" speed="13.89" shape="832.56,63.16 826.05,-8.90">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E27.154" from="clusterJ56_J6_J7" to="clusterJ10_J11_J58" priority="-1" numLanes="2" speed="13.89" shape="818.67,-90.63 806.71,-189.81">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E27.253" from="clusterJ10_J11_J58" to="J53" priority="-1" numLanes="2" speed="13.89" shape="806.71,-189.81 775.67,-447.26">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E27.72" from="clusterJ2_J4_J54" to="clusterJ56_J6_J7" priority="-1" numLanes="2" speed="13.89" shape="826.05,-8.90 818.67,-90.63">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E28" from="clusterJ2_J4_J54" to="J55" priority="-1" numLanes="2" speed="13.89" shape="834.83,-4.58 929.56,-9.87">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E29" from="clusterJ56_J6_J7" to="J57" priority="-1" numLanes="2" speed="13.89" shape="826.89,-98.52 924.11,-104.69">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E30" from="clusterJ10_J11_J58" to="J59" priority="-1" numLanes="2" speed="13.89" shape="817.72,-196.34 917.58,-202.78"/>
+    <edge id="E31" from="J36" to="J53" priority="-1" numLanes="2" speed="13.89">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E4" from="J3" to="J36" priority="-1" numLanes="2" speed="13.89">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E5" from="clusterJ20_clusterJ14_J19" to="J15" priority="-1" numLanes="2" speed="13.89" shape="-136.33,265.16 -259.56,281.67"/>
+    <edge id="E6" from="J15" to="J16" priority="-1" numLanes="2" speed="13.89"/>
+    <edge id="E7" from="J16" to="clusterJ17_J21_J22" priority="-1" numLanes="2" speed="13.89" shape="-269.83,218.65 -142.16,199.52"/>
+    <edge id="E8" from="clusterJ60_J61_clusterJ23_J29" to="J24" priority="-1" numLanes="2" speed="13.89" shape="-145.92,146.23 -280.65,161.43">
+        <lane index="0" disallow="pedestrian"/>
+        <lane index="1" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="E9" from="J24" to="J25" priority="-1" numLanes="2" speed="13.89">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+</edges>
